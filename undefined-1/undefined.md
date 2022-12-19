@@ -47,7 +47,7 @@ for _ in range(t):
     n = int(input())
     li = sorted(list(map(int, input().split())))
     spotList = defaultdict(int)
-    for i in range(len(li)): # 모든 점을 defaultdict에 담기
+    for i in range(len(li)):              # 모든 점을 defaultdict에 담기
         spotList[li[i]] = 1
 
     ans = 0
@@ -55,8 +55,8 @@ for _ in range(t):
         for j in range(i+1, n):
             first = li[i]
             second = li[j]
-            third = li[j] + (li[j]-li[i])
-            if spotList[third] == 1:
+            third = li[j] + (li[j]-li[i]) # 임의의 세번 째 점
+            if spotList[third] == 1:      # 임의의 세번 째 점이 존재하는지 확인
                 ans += 1
     print(ans)
 ```
