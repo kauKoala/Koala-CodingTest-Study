@@ -6,9 +6,9 @@
 
 
 
-### 연습문제
+## 연습문제
 
-#### BOJ 13423
+### BOJ 13423
 
 {% embed url="https://www.acmicpc.net/problem/13423" %}
 
