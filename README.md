@@ -1,2 +1,7 @@
-# Koala-CodingTest-Study
-코알라 코딩테스트 전용 깃북입니다.
+---
+description: 한국항공대학교 알고리즘학회 Koala에서 진행하는 코딩테스트 스터디입니다.
+---
+
+# CodingTest\_Study
+
+팀 블로그 : [https://kau-algorithm.tistory.com/](https://kau-algorithm.tistory.com/)
