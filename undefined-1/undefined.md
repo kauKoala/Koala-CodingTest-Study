@@ -65,11 +65,11 @@ for _ in range(t):
 
 '점이 존재한다'는 의미로 defaultdict을 사용할 것이므로, 존재하는 점(key)의 값(value)은 모두 임의의 값 1로 넣어줍니다.
 
-그 후에 이중 반복문을 통해 defaultdict(spotList)에 담긴 두 점을 선택합니다.
+그 후에 이중 반복문을 통해 defaultdict에 담긴 두 점을 선택합니다.
 
 first와 second를 선택하고, 이 두 점 사이의 거리와 동일한 third를 임의로 설정합니다.
 
-임의의 third가 만약 defaultdict(spotList)에 존재한다면 동일한 거리의 세 점이 모두 존재한다는 의미가 됩니다.
+임의의 third가 만약 defaultdict에 존재한다면 동일한 거리의 세 점이 모두 존재한다는 의미가 됩니다.
 
 위와 같은 경우에 ans의 값을 1씩 올리면서 반복문을 돌리면, 최종 정답을 받을 수 있습니다.
 
