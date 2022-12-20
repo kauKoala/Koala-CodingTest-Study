@@ -9,7 +9,7 @@
 * [탐색](undefined-1/README.md)
   * [완전 탐색](undefined-1/undefined.md)
   * [이진 탐색](undefined-1/undefined-1.md)
-  * [완전탐색 (백트래킹) X](undefined-1/x.md)
+  * [완전탐색 (백트래킹) O](undefined-1/o.md)
 * [그리디와 DP](dp/README.md)
   * [그리디 2](dp/2.md)
   * [다이나믹 프로그래밍 1 X](dp/1-x.md)
