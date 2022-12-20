@@ -8,6 +8,10 @@
 
 ## 연습문제
 
+###
+
+###
+
 ### BOJ 13423
 
 {% embed url="https://www.acmicpc.net/problem/13423" %}
@@ -16,7 +20,7 @@
 
 가장 먼저 기초 스터디에서 다룬 itertools의 combinations를 생각해 볼 수 있습니다.
 
-```
+```python
 from itertools import combinations as cb
 input = __import__('sys').stdin.readline
 t = int(input())
@@ -39,7 +43,7 @@ for _ in range(t):
 
 동일하게 완전 탐색 풀이지만, **defaultdict**을 사용하면 시간 초과에서 자유로워질 수 있습니다.
 
-```
+```python
 from collections import defaultdict
 input = __import__('sys').stdin.readline
 t = int(input())
