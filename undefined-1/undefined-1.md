@@ -8,6 +8,18 @@ O(logN)
 
 ## 연습문제
 
+### BOJ 16401
+
+{% embed url="https://www.acmicpc.net/problem/16401" %}
+
+
+
+
+
+
+
+
+
 ### BOJ 13423
 
 {% embed url="https://www.acmicpc.net/problem/13423" %}

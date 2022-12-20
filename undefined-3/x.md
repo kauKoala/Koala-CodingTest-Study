@@ -4,7 +4,7 @@ description: 노드들이 나무 가지처럼 연결된 비선형 계층적 자�
 
 # 트리 X
 
-![](<../.gitbook/assets/image (1).png>)왼쪽 그림이 바로 TREE !!
+![](../.gitbook/assets/image.png)왼쪽 그림이 바로 TREE !!
 
 ① 연결 그래프이다. (컴포넌트가 하나이다.)
 
