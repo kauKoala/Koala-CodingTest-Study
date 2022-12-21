@@ -9,7 +9,7 @@ description: 노드들이 나무 가지처럼 연결된 비선형 계층적 자�
 트리의 가장 큰 특징 두 가지는 다음과 같습니다.&#x20;
 
 ① 연결 그래프입니다. (컴포넌트가 하나이다.)\
-② 방향을 무시하였을 때, 싸이클이 존재하지 않습니다.
+② 방향을 무시하였을 때, 싸이클(특정 정점에서 시작해 어떠한 경로를 지나 다시 그 정점으로 돌아오는 경로)이 존재하지 않습니다.
 
 엇? 이거 그래프 아닙니까??\
 네 맞습니다! 트리는 그래프의 하위 개념입니다.
@@ -20,7 +20,7 @@ description: 노드들이 나무 가지처럼 연결된 비선형 계층적 자�
 
 📌트리의 개념
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 * 트리의 루트 노드(root)는 트리의 가장 위에 있는 노드를 말합니다. 따라서 'A'입니다.
 * 노드 'D'의 부모 노드 (parent)는 해당 노드를 가리키는 상위 level 노드를 말한다. 따라서 'B'입니다.
@@ -41,7 +41,7 @@ description: 노드들이 나무 가지처럼 연결된 비선형 계층적 자�
 * **중위 순회(inorder traverse) : 왼쪽 하위 트리를 방문 후 뿌리(root)를 방문**
 * **후위 순회(postorder traverse) : 하위 트리 모두 방문 후 뿌리(root)를 방문**
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (4).png" alt=""><figcaption></figcaption></figure>
 
 * 전위 순회 : 0->1->3->7->8->4->9->10->2->5->11->6
 * 중위 순회 : 7->3->8->1->9->4->10->0->11->5->2->6
@@ -112,19 +112,37 @@ BST는 이진트리의 성질을 가지면서 다음과 같은 특징이 있습�
 
 <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
+* 삽입과정
+
 삽입과정은 이러합니다. 루트에서 시작하고, 삽입하려는 key값 K가 있을 때, 현재 정점의 key보다 K가 작으면 왼쪽 서브트리에 삽입해야 합니다. 만약 현재 정점의 왼쪽 자식이 없다면 key가 K인 새 노드를 만들어 현재 정점의 왼쪽 자식으로 만들고 연산을 종료하고, 자식이 또 있다면 위 연산을 반복합니다.
 
 반대로 현재 정점의 key보다 K가 크면 오른쪽 서브트리에 대해 위와 같은 연산을 합니다.
 
+* 삭제과정
 
+삭제과정이 조금 까다로운데요, 경우가 세 가지로 나뉩니다.
 
+\
+1\. 지워야 할 노드가 리프 노드일 때\
+그냥 똑 떼어주면 됩니다.
 
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
+2\. 지워야 할 노드가 자식이 하나만 있을 때\
+자신을 떼어내고 자식을 그 자리로 갖다 놓으면 됩니다.
 
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+3\. 지워야 할 노드가 자식이 2개일 때\
+이 경우가 가장 까다로운데요, 해당 노드 왼쪽에 있는 노드들 중 가장 큰 leaf노드 가져오거나 / 해당 노드 오른쪽에 있는 노드들 중 가장 작은 leaf노드를 가져오면 됩니다.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+이렇게 BST의 검색, 삽입, 삭제에 대해 알아보았는데요.\
+이번에는BST의 특징을 이용하여 다음 5639 문제를 풀어봅시다.\
+앞에서 배운 전위 후위 순회를 활용하여 푸시면 됩니다.
 
 {% embed url="https://www.acmicpc.net/problem/5639" %}
-
-BST의 특징을 이용하여 다음 5639 문제를 풀어봅시다.
 
 ```python
 import sys
