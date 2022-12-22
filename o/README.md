@@ -30,7 +30,7 @@ description: 연결되어 있는 객체 간의 관계를 표현하는 비선형 
 
 인접행렬이란 이름 그대로 그래프의 연결 관계를 행렬로 표현하여 이차원 배열로 나타내는 방식을 의미합니다.
 
-<figure><img src="../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 위 무향그래프를 보면 노드0에서 노드3으로 이동할 수 있으므로 (0,3) 값을 1로 할당하였습니다. \
 0에서 2처럼 이동할 수 없는 경우에는 0으로 할당합니다.
