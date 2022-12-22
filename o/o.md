@@ -94,7 +94,7 @@ postorder('A')
 📌이진 탐색 트리(BST, Binary Search Tree)\
 트리의 가장 대표적인 유형 중 하나인 이진 탐색트리에 대해 추가로 알아봅시다.
 
-![](<../.gitbook/assets/image (5) (4).png>)
+![](<../.gitbook/assets/image (5) (2).png>)
 
 이진 트리 (binary tree)는 알다시피  각노드가 최대 두 개의 자식 노드를 가지는 트리 자료 구조 로, 자식 노드를 각각 왼쪽 자식 노드 와 오른쪽 자식 노드로 가지고 있습니다.
 
@@ -111,7 +111,7 @@ BST는 이진트리의 성질을 가지면서 다음과 같은 특징이 있습�
 
 
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 삽입과정
 
@@ -127,12 +127,12 @@ BST는 이진트리의 성질을 가지면서 다음과 같은 특징이 있습�
 1\. 지워야 할 노드가 리프 노드일 때\
 그냥 똑 떼어주면 됩니다.
 
-<figure><img src="../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 2\. 지워야 할 노드가 자식이 하나만 있을 때\
 자신을 떼어내고 자식을 그 자리로 갖다 놓으면 됩니다.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 3\. 지워야 할 노드가 자식이 2개일 때\
 이 경우가 가장 까다로운데요, 해당 노드 왼쪽에 있는 노드들 중 가장 큰 leaf노드 가져오거나 / 해당 노드 오른쪽에 있는 노드들 중 가장 작은 leaf노드를 가져오면 됩니다.
