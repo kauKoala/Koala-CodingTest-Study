@@ -73,3 +73,4 @@ bfs(s)
 print(check[e] if check[e] > 0 else -1)
 ```
 
+floodfill 관련 로직 설명
