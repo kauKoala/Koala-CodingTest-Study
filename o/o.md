@@ -4,7 +4,7 @@ description: 노드들이 나무 가지처럼 연결된 비선형 계층적 자�
 
 # 트리 O
 
-![](<../.gitbook/assets/image (15) (1).png>)왼쪽 그림이 바로 TREE 입니다.
+![](<../.gitbook/assets/image (15).png>)왼쪽 그림이 바로 TREE 입니다.
 
 트리의 가장 큰 특징 두 가지는 다음과 같습니다.&#x20;
 
@@ -41,7 +41,7 @@ description: 노드들이 나무 가지처럼 연결된 비선형 계층적 자�
 * **중위 순회(inorder traverse) : 왼쪽 하위 트리를 방문 후 뿌리(root)를 방문**
 * **후위 순회(postorder traverse) : 하위 트리 모두 방문 후 뿌리(root)를 방문**
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (4).png" alt=""><figcaption></figcaption></figure>
 
 * 전위 순회 : 0->1->3->7->8->4->9->10->2->5->11->6
 * 중위 순회 : 7->3->8->1->9->4->10->0->11->5->2->6
@@ -94,7 +94,7 @@ postorder('A')
 📌이진 탐색 트리(BST, Binary Search Tree)\
 트리의 가장 대표적인 유형 중 하나인 이진 탐색트리에 대해 추가로 알아봅시다.
 
-![](<../.gitbook/assets/image (5) (4).png>)
+![](<../.gitbook/assets/image (5).png>)
 
 이진 트리 (binary tree)는 알다시피  각노드가 최대 두 개의 자식 노드를 가지는 트리 자료 구조 로, 자식 노드를 각각 왼쪽 자식 노드 와 오른쪽 자식 노드로 가지고 있습니다.
 
@@ -137,7 +137,7 @@ BST는 이진트리의 성질을 가지면서 다음과 같은 특징이 있습�
 3\. 지워야 할 노드가 자식이 2개일 때\
 이 경우가 가장 까다로운데요, 해당 노드 왼쪽에 있는 노드들 중 가장 큰 leaf노드 가져오거나 / 해당 노드 오른쪽에 있는 노드들 중 가장 작은 leaf노드를 가져오면 됩니다.
 
-<figure><img src="../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 이렇게 BST의 검색, 삽입, 삭제에 대해 알아보았는데요.\
 이번에는BST의 특징을 이용하여 다음 5639 문제를 풀어봅시다.\
