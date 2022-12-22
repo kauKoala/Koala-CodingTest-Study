@@ -4,7 +4,7 @@ description: 노드들이 나무 가지처럼 연결된 비선형 계층적 자�
 
 # 트리 O
 
-![](<../.gitbook/assets/image (15).png>)왼쪽 그림이 바로 TREE 입니다.
+![](../.gitbook/assets/image.png)왼쪽 그림이 바로 TREE 입니다.
 
 트리의 가장 큰 특징 두 가지는 다음과 같습니다.&#x20;
 
@@ -94,7 +94,7 @@ postorder('A')
 📌이진 탐색 트리(BST, Binary Search Tree)\
 트리의 가장 대표적인 유형 중 하나인 이진 탐색트리에 대해 추가로 알아봅시다.
 
-![](<../.gitbook/assets/image (5) (2).png>)
+![](<../.gitbook/assets/image (5) (2) (1).png>)
 
 이진 트리 (binary tree)는 알다시피  각노드가 최대 두 개의 자식 노드를 가지는 트리 자료 구조 로, 자식 노드를 각각 왼쪽 자식 노드 와 오른쪽 자식 노드로 가지고 있습니다.
 
@@ -111,7 +111,7 @@ BST는 이진트리의 성질을 가지면서 다음과 같은 특징이 있습�
 
 
 
-<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 삽입과정
 
@@ -127,7 +127,7 @@ BST는 이진트리의 성질을 가지면서 다음과 같은 특징이 있습�
 1\. 지워야 할 노드가 리프 노드일 때\
 그냥 똑 떼어주면 됩니다.
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 2\. 지워야 할 노드가 자식이 하나만 있을 때\
 자신을 떼어내고 자식을 그 자리로 갖다 놓으면 됩니다.
