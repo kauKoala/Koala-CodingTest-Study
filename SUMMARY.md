@@ -22,5 +22,5 @@
   * [BFS](o/bfs.md)
   * [DFS X](o/dfs-x.md)
   * [다익스트라 O](o/o-1.md)
-  * [분리집합 X 2](o/x-2.md)
-  * [크루스칼 X 2](o/x-2-1.md)
+  * [유니온 파인드(분리집합)](o/undefined.md)
+  * [크루스칼 X 2](o/x-2.md)
