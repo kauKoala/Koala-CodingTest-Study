@@ -21,6 +21,6 @@
   * [트리 O](o/o.md)
   * [BFS](o/bfs.md)
   * [DFS X](o/dfs-x.md)
-  * [다익스트라 X](o/x.md)
+  * [다익스트라 O](o/o-1.md)
   * [분리집합 X 2](o/x-2.md)
   * [크루스칼 X 2](o/x-2-1.md)
