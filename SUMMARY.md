@@ -20,7 +20,7 @@
 * [그래프 O](o/README.md)
   * [트리 O](o/o.md)
   * [BFS](o/bfs.md)
-  * [DFS X](o/dfs-x.md)
+  * [DFS O](o/dfs-o.md)
   * [다익스트라 O](o/o-1.md)
   * [유니온 파인드(분리집합) O](o/o-2.md)
   * [크루스칼 X 2](o/x-2-1.md)

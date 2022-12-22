@@ -15,7 +15,7 @@ N-Queens 문제의 규칙은 퀸이 놓였을 때 퀸 자신을 기준으로 일
 
 예를 들어 아래와 같이 퀸의 가로에 퀸을 놓을 수 없습니다.
 
-![](<../.gitbook/assets/image (1) (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1) (1).png>)
 
 우리가 어떤 과정을 거쳐 판단을 내릴 수 있을지 봅시다.\
 
@@ -91,7 +91,32 @@ print(ans
 백트래킹을 이해해보며 추가적인 내용을 익혀봅시다! 위 동영상처럼 그림을 그려보면 이해에 도움이 됩니다.
 {% endembed %}
 
-조금 어렵지만 코딩테스트에 나올 수 있는 문제
+N과 M 시리즈에서 5번 문제를 같이 볼까요?
+
+{% embed url="https://www.acmicpc.net/problem/15654" %}
+
+백트래킹의 전형적인 로직으로, 아래 코드에서 pop시키는 과정이 arr에서 7을 pop시키는 과정이고, 이후 다시 다음 숫자8을 그 자리에 넣게 됩니다.
+
+<img src="../.gitbook/assets/image.png" alt="" data-size="original">
+
+```python
+def go(arr):
+    if len(arr) == m:
+        print(' '.join(map(str,arr)))
+        return
+    for i in range(n):
+        if len(arr)==0 or List[i] not in arr:
+            arr.append(List[i])
+            go(arr)
+            arr.pop()
+            
+n, m = map(int,input().split())
+List=list(map(int, input().split()))
+List.sort()
+go([])
+```
+
+아래 문제는 조금 어렵지만 코딩테스트에 나올 수 있는 유형입니다.
 
 {% embed url="https://www.acmicpc.net/problem/15684" %}
 사다리 타기, Grid World는 백트래킹을 표현하는 수단으로 자주 출제됩니다.
