@@ -30,7 +30,7 @@ _RecursionError: maximum recursion depth exceeded in comparison._\
 피보나치 수열을 나타낼 때 우리는 1 1 2 3 5 8 13 21 34 … 이런 식으로 앞에서부터생각해낼 수 있습니다. 이렇게 애초에 아래에서부터 차근차근 구해놓고 시작하는 것을 📌**Bottom up** 방식이라고 합니다.\
 
 
-![](<../.gitbook/assets/image (9).png>)
+![](<../.gitbook/assets/image (9) (2).png>)
 
 다음 피보나치 수열을  BOTTOM-UP 형식으로 나타내면 다음과 같습니다.
 
@@ -114,7 +114,7 @@ sys.setrecursionlimit(10000)     #재귀의 한도를 10000까지 풀어준다.
 
 만약 아래 3번 상황도 가져와야 하는 거 아닌가? 라고 생각했다면, 3번 상황은 1번 상황에 이미 반영되어 있을 것이므로 불가능합니다!
 
-![](<../.gitbook/assets/image (10) (1).png>)
+![](<../.gitbook/assets/image (10).png>)
 
 이를 모두 종합하여 이렇게 BOTTOM UP DP를 구현할 수 있습니다.
 

@@ -8,7 +8,7 @@ description: 그래프 내의 모든 정점들을 가장 적은 비용으로 연
 
 
 📌Spanning Tree(신장트리)란 ??\
-![](<../.gitbook/assets/image (19).png>)
+![](<../.gitbook/assets/image (7).png>)
 
 **그래프에서** \
 ****①**모든 정점을 포함하고 정점 간 서로 연결이 되며** \
@@ -32,27 +32,27 @@ MST의 특징은 자연스럽게 정점이 N개라면 간선은 N-1개가 됩니
 
 그럼 다음 그래프로 크루스칼을 구현해봅시다. 아래 그래프는 노드가 총 5개니까 4개의 간선을 선택해내면 됩니다!
 
-![](<../.gitbook/assets/image (22).png>)
+![](<../.gitbook/assets/image (21).png>)
 
 일단 간선들 사이에서 가장 가중치가 작은 2 가중치의 간선을 선택합니다.
 
-![](<../.gitbook/assets/image (13).png>)
+![](<../.gitbook/assets/image (24).png>)
 
 다음으로 가중치가 작은 4를 선택하고,
 
-![](<../.gitbook/assets/image (1).png>)
+![](../.gitbook/assets/image.png)
 
 그 다음으로 가중치가 작은 4를 선택하고 싶은데 아차차! 이렇게 하면 사이클이 만들어져서 안되겠죠?
 
-![](<../.gitbook/assets/image (7).png>)X
+![](<../.gitbook/assets/image (12).png>)X
 
 그래서 다음으로 가중치가 작은 6인 간선을 또 하나 선택합니다.
 
-![](<../.gitbook/assets/image (17).png>)
+![](<../.gitbook/assets/image (9).png>)
 
 이제 지금까지 간선 3개를 선택했으니 남은 한 개만 선택하면 됩니다! 남은 간선들 중 가중치가 가장 작은 6을 선택하면 더 이상 사이클을 형성하는 일 없이 크루스칼 알고리즘이 완성됩니다!!
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (22).png>)
 
 {% embed url="https://www.acmicpc.net/problem/1922" %}
 

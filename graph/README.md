@@ -8,7 +8,7 @@ description: 연결되어 있는 객체 간의 관계를 표현하는 비선형 
 
 먼저 그래프의 특징에 대해 알아봅시다.
 
-![](<../.gitbook/assets/image (16).png>)정점(V, vertex)과 간선(E, edge)
+![](<../.gitbook/assets/image (16) (1).png>)정점(V, vertex)과 간선(E, edge)
 
 그래프는 정점과 간선으로 이루어져 있습니다. 위 그림에서 볼 수 있듯이,
 
@@ -41,7 +41,7 @@ description: 연결되어 있는 객체 간의 관계를 표현하는 비선형 
 그래프의 한 꼭짓점에서 연결되어 있는 꼭짓점들을 하나의 연결 리스트로 표현하는 방식을 의미합니다.\
 파이썬에서는 dictionary로 구현하거나 또는 이차원 배열에 append하는 방식으로 구현할 수 있습니다.
 
-<figure><img src="../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 위 그래프에서 우리는 노드 0에서는 노드 1,2,3으로 갈 수 있음을 알 수 있습니다.\
 인접리스트 방법은 인접 행렬 방법보다 공간적 측면에서 낭비가 없어 효율적입니다.
