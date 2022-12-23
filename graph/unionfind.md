@@ -7,7 +7,7 @@ description: 그래프 알고리즘으로, 두 노드가 같은 그래프에 속
 이름에서 알 수 있듯이 Union과 Find  함수를 구현하는 알고리즘입니다.\
 아래와 같이 그래프(집합) 두 개가 존재합니다. 일단 왼쪽 그래프(집합)는 대표가 root노드인 7이고, 오른쪽 그래프(집합)는 대표가 root 노드인 15에 해당합니다.
 
-<figure><img src="../.gitbook/assets/image (2) (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 먼저 다음 물음에 답해봅시다.
 

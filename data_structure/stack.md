@@ -40,7 +40,48 @@ li.pop()        # li == []
 
 {% embed url="https://www.acmicpc.net/problem/1874" %}
 
+처음에 배열에 들어갈 원소를 하나씩 입력받게 됩니다. 하지만 모든 원소를 배열에 미리 넣어두는 방식 말고 하나씩 넣을지 말지 판단하는 방식으로 진행해보도록 하겠습니다.
+
+```python
+li = []      
+ans = []    # '+', '-'를 담을 배열
+cnt = 0
+flag = True # 불가능한 경우를 위한 flag
+```
+
+li 배열을 사용하여 문제의 과정을 진행하고, ans 배열은 삽입/삭제의 여부에 따라 '+', '-'를 넣어줄 용도로 사용합니다.
+
+입력받은 수열을 만들어 낼 수 없을 때 flag를 통해 예외처리를 해줄 예정입니다.
 
 
 
+```python
+n = int(input())
+li = []     
+ans = []    
+cnt = 0
+flag = True
+for _ in range(n):
+    val = int(input())
+
+    while cnt < val:
+        cnt += 1
+        li.append(cnt)
+        ans.append('+')
+    if li[-1] == val:
+        li.pop()
+        ans.append('-')
+    else:
+        flag = False
+        break
+
+if flag == True:
+    print('\n'.join(ans))
+else:
+    print('NO')
+```
+
+cnt 변수는 append() 할지 말지를 결정하는 지표가 됩니다.
+
+입력값이 나올 때까지 수를 삽입하다가, 그 수가 나오면 삭제하는 과정을 반복하면 됩니다.
 

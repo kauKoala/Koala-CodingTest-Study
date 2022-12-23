@@ -4,7 +4,7 @@
 
 선입선출 즉, '먼저 들어온게 먼저 나간다'를 그림으로 그려봅시다.
 
-<figure><img src="../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 스택과는 다르게 양 쪽이 모두 열려 있습니다. 하지만 한 쪽은 문지기가 지키며 나가는 것만 허락해줍니다. 이 쪽으로 들어올 순 없는거죠.&#x20;
 
