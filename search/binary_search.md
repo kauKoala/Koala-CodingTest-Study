@@ -47,25 +47,7 @@ while left <= right:
 
 
 
-정렬하지 않아야 하는 문제도 있음 (17951)
-
-
-
-
-
 ## 연습문제
-
-### BOJ 16401
-
-{% embed url="https://www.acmicpc.net/problem/16401" %}
-
-
-
-
-
-
-
-
 
 ### BOJ 13423
 
@@ -112,7 +94,10 @@ for _ in range(t):
 
 
 
+### 풀어볼 문제
 
+* [https://www.acmicpc.net/problem/16401](https://www.acmicpc.net/problem/16401)
+* [https://www.acmicpc.net/problem/17951](https://www.acmicpc.net/problem/17951)&#x20;
 
-
+(cf. 17951 문제처럼 정렬을 하지 않아야하는 **이진 탐색** 문제도 있습니다!)
 

@@ -125,5 +125,8 @@ first와 second를 선택하고, 이 두 점 사이의 거리와 동일한 third
 
 
 
-****
+### 풀어볼 문제
+
+* [https://www.acmicpc.net/problem/1436](https://www.acmicpc.net/problem/1436)
+* [https://www.acmicpc.net/problem/1895](https://www.acmicpc.net/problem/1895)
 

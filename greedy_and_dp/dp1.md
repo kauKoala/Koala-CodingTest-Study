@@ -2,7 +2,7 @@
 description: 복잡한 문제를 간단한 여러 개의 문제로 나누어 푸는 방법
 ---
 
-# 다이나믹 프로그래밍 1 O
+# 다이나믹 프로그래밍 1
 
 하지만 우리의 일생은 위 그리디처럼 항상 독립적으로 일어날 수 없습니다.\
 과거에 의존적인 상황에서는 그럼 어떻게 해야 효율적인 판단을 내릴 수 있을까요?
@@ -110,11 +110,11 @@ sys.setrecursionlimit(10000)     #재귀의 한도를 10000까지 풀어준다.
 
 예를 들어 노란색 구간에서의 최대값을 찾고 싶다고.해봅시다 그러면 아래 1번 경우와 2번경우의 파란색 상황에서 적용해 가져올 수 있습니다.
 
-<figure><img src="../.gitbook/assets/image (5) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 만약 아래 3번 상황도 가져와야 하는 거 아닌가? 라고 생각했다면, 3번 상황은 1번 상황에 이미 반영되어 있을 것이므로 불가능합니다!
 
-![](<../.gitbook/assets/image (10) (1).png>)
+![](<../.gitbook/assets/image (10).png>)
 
 이를 모두 종합하여 이렇게 BOTTOM UP DP를 구현할 수 있습니다.
 
