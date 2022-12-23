@@ -52,11 +52,13 @@ chk = [False for _ in range(n)]
 chk[m] = True
 ```
 
-위와 같이 중요도를 담은 배열 **li**와, 지정한 문서의 위치를 저장해줄 배열 **chk**를 만들도록 합시다.
+위와 같이 중요도를 담은 배열 **li**와, 궁금한 문서의 위치를 저장해줄 배열 **chk**를 만들도록 합시다.
 
-현재 위치는&#x20;
+chk 배열의 원소를 모두 False로 만들되, 궁금한 문서는 True로 지정해줘야겠죠?
 
 
+
+while문을 돌다가, 리스트의 0번 인덱스의 값이 최댓값이면서 처음 지정한 문서일 때 반복문을 종료해주시면 됩니다.
 
 ```python
 t = int(input())
@@ -69,7 +71,7 @@ for i in range(t):
     while True:
         if li[0] == max(li):
             cnt += 1
-            if chk[0] == 1:
+            if chk[0] == True:
                 print(cnt)
                 break
             else:

@@ -3,7 +3,7 @@
 * [CodingTest\_Study](README.md)
 * [자료구조](data\_structure/README.md)
   * [스택](data\_structure/stack.md)
-  * [큐](data\_structure/queue.md)
+  * [큐](data\_structure/undefined.md)
   * [덱](data\_structure/deque.md)
   * [우선순위 큐](data\_structure/priority\_queue.md)
 * [탐색](search/README.md)
