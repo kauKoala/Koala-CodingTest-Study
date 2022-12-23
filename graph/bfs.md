@@ -2,7 +2,7 @@
 description: 넓이 우선 탐색, 그래프에서 인접한 노드를 우선적으로 탐색하는 방법
 ---
 
-# BFS
+# BFS O
 
 <figure><img src="../.gitbook/assets/bfs.gif" alt=""><figcaption></figcaption></figure>
 
@@ -48,6 +48,11 @@ bfs(graph, 0, visited) #출력 : 0 1 2 3 4 5 6 7 8
 
 {% embed url="https://www.acmicpc.net/problem/2644" %}
 
+BFS로 그래프를 탐색하며 현재 탐색하는 노드A에서 갈 수 있는 노드B에 현재 노드 값(A)의 +1을 합니다. \
+그리고 또 다시 노드B로 이동합니다.
+
+이런 식으로 모든 노드들을 탐색을 마치면 찾고자 하는 노드의 인덱스의 값을 출력해주면 됩니다.
+
 ```python
 from collections import deque
 
@@ -73,4 +78,9 @@ bfs(s)
 print(check[e] if check[e] > 0 else -1)
 ```
 
-floodfill 관련 로직 설명
+기본 알고리즘 시간에 배웠던 floodfill도 기본적으로 bfs 로직입니다.\
+direction 방향을 선택하여 상하좌우부터 탐색하는 bfs 로직이라고 보시면 됩니다.
+
+```python
+direction = [(0,1),(1,0),(-1,0),(0,-1)]
+```

@@ -19,7 +19,7 @@
   * [투포인터](prefixsum\_and\_twopointer/two\_pointer.md)
 * [그래프 O](graph/README.md)
   * [트리 O](graph/tree.md)
-  * [BFS](graph/bfs.md)
+  * [BFS O](graph/bfs.md)
   * [DFS O](graph/dfs.md)
   * [다익스트라 O](graph/dijkstra.md)
   * [유니온 파인드(분리집합) O](graph/unionfind.md)
