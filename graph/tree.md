@@ -4,7 +4,7 @@ description: 노드들이 나무 가지처럼 연결된 비선형 계층적 자�
 
 # 트리 O
 
-![](../.gitbook/assets/image.png)왼쪽 그림이 바로 TREE 입니다.
+![](<../.gitbook/assets/image (23).png>)왼쪽 그림이 바로 TREE 입니다.
 
 트리의 가장 큰 특징 두 가지는 다음과 같습니다.&#x20;
 

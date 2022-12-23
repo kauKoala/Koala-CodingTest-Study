@@ -8,7 +8,7 @@
 
 그렇다면 우리는 배열의 크기와 인덱스를 모두 바꿔가며 **완전 탐색**을 해야할까요? 이는 너무 비효율적입니다.
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 효율성을 위해, 그리고 시간 초과를 방지하기 위해 우리는 **투 포인터** 기법을 사용할 수 있습니다.
 
