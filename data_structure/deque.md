@@ -69,14 +69,6 @@ dq.popleft()     # deque([1, 2, 3])
 
 ## 연습문제
 
-### BOJ 5397
-
-{% embed url="https://www.acmicpc.net/problem/5397" %}
-
-\-> 오히려 스택문제가 아닌가 싶어서 우선 보류&#x20;
-
-
-
 ### BOJ 1835
 
 {% embed url="https://www.acmicpc.net/problem/1835" %}

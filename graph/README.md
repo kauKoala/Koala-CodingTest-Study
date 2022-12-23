@@ -8,7 +8,7 @@ description: 연결되어 있는 객체 간의 관계를 표현하는 비선형 
 
 먼저 그래프의 특징에 대해 알아봅시다.
 
-![](<../.gitbook/assets/image (16).png>)정점(V, vertex)과 간선(E, edge)
+![](<../.gitbook/assets/image (16) (1).png>)정점(V, vertex)과 간선(E, edge)
 
 그래프는 정점과 간선으로 이루어져 있습니다. 위 그림에서 볼 수 있듯이,
 
