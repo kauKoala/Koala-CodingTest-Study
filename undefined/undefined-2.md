@@ -63,7 +63,7 @@ dq.popleft()     # deque([1, 2, 3])
 
 덱의 가장 큰 장점이자, 큐 대신 덱을 쓰는 가장 큰 이유인데요.
 
-큐로는 시간 초과가 나지만 덱으로는 통과할 수 있는 문제가 가끔 존재하기 때문에, 큐 문제를 덱으로 푸시는 것도 괜찮은 방법입니다.
+큐로는 시간 초과가 나지만 덱으로는 통과할 수 있는 문제가 가끔 존재하기 때문에, 큐 문제를 덱으로 푸는 것도 괜찮은 방법입니다.
 
 
 
@@ -72,3 +72,67 @@ dq.popleft()     # deque([1, 2, 3])
 ### BOJ 5397
 
 {% embed url="https://www.acmicpc.net/problem/5397" %}
+
+\-> 오히려 스택문제가 아닌가 싶어서 우선 보류&#x20;
+
+
+
+### BOJ 1835
+
+{% embed url="https://www.acmicpc.net/problem/1835" %}
+
+원래의 배열에서, 오름차순으로 정렬된 배열을 만드는 과정은 아래와 같습니다.
+
+1. front에서 삭제한 것을 rear로 삽입 **1번**  -> front에서 삭제
+2. front에서 삭제한 것을 rear로 삽입 **2번**  -> front에서 삭제
+
+&#x20;                                       (중략)
+
+&#x20; N.  front에서 삭제한 것을 rear로 삽입 **N번**  -> front에서 삭제
+
+의 순서로 진행하며, 최종적으로 1, 2, ... , N 을 얻을 수 있게 됩니다.
+
+수도코드로 나타내면 다음과 같습니다.
+
+```python
+# 초기 배열을 li라고 가정
+li.append(li.popleft()) 1번 반복 -> li.popleft()
+li.append(li.popleft()) 2번 반복 -> li.popleft()
+(중략)
+li.append(li.popleft()) N번 반복 -> li.popleft()
+```
+
+
+
+그렇다면 우리는 이 과정을 거꾸로만 진행하면 됩니다.
+
+똑같이 수도코드로 나타내 봅시다.
+
+```python
+# 초기 배열을 li라고 가정
+li.appendleft(N) -> li.appendleft(li.pop()) N번 반복
+(중략)
+li.appendleft(2) -> li.appendleft(li.pop()) 2번 반복
+li.appendleft(1) -> li.appendleft(li.pop()) 1번 반복
+```
+
+1부터 N까지 차례대로 삭제된 것이 자명하므로, 삽입시에는 N부터 1까지 역순으로 삽입해주도록 합니다.&#x20;
+
+미리 수도코드에서 나타냈지만, 전단 삽입이 필요하기 때문에 appendleft()를 지원하는 덱을 사용하면 편리합니다.
+
+
+
+```python
+from collections import deque
+
+n = int(input())
+dq = deque()
+for i in range(n, 0, -1):
+    dq.appendleft(i)
+    for _ in range(i):
+        dq.appendleft(dq.pop())
+print(*dq)
+```
+
+전체 코드입니다. 단계를 거꾸로 차근차근 밟아가면 어렵지 않은 문제입니다.
+

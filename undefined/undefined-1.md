@@ -40,7 +40,45 @@ li.pop(0)       # li == []
 
 {% embed url="https://www.acmicpc.net/problem/1966" %}
 
+문제를 읽어보면, 전단(front)에서 원소를 삭제해야 하기 때문에, 큐를 사용해야 합니다.
 
+하지만 삽입/삭제를 거치면서 원래 지정한 문서의 인덱스마저 바뀌게 됩니다.
+
+때문에, 중요도를 담은 배열 이외에 **다른 배열**을 하나 더 만들어서, 지정한 문서의 위치를 동시에 저장하는 방식으로 하시면 됩니다.
+
+```python
+li = list(map(int, input().split()))
+chk = [False for _ in range(n)]
+chk[m] = True
+```
+
+위와 같이 중요도를 담은 배열 **li**와, 지정한 문서의 위치를 저장해줄 배열 **chk**를 만들도록 합시다.
+
+현재 위치는&#x20;
+
+
+
+```python
+t = int(input())
+for i in range(t):
+    n, m = map(int, input().split())
+    li = list(map(int, input().split()))
+    chk = [False for _ in range(n)]
+    chk[m] = True
+    cnt = 0
+    while True:
+        if li[0] == max(li):
+            cnt += 1
+            if chk[0] == 1:
+                print(cnt)
+                break
+            else:
+                li.pop(0)
+                chk.pop(0)
+        else:
+            li.append(li.pop(0))
+            chk.append(chk.pop(0))
+```
 
 
 
