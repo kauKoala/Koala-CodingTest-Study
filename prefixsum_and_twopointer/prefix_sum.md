@@ -103,7 +103,7 @@ for i in range(1,n+1):
 그럼 이번에는 prefix\_sum 배열에서구간합을 구해볼까요?\
 다아래2차원 배열에서 파란색에 해당하는 구간을 구하고 싶다고 합시다.
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
 이 때 우리가 고등학교 때 배웠던 3개의 집합의 교집합을 구하는 공식과 비슷하게&#x20;
 

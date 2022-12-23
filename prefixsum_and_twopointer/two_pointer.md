@@ -6,13 +6,13 @@ description: 리스트에 순차적으로 접근해야 할 때 두 개의 점의
 
 **투 포인터**도 이진 탐색과 마찬가지로, 시간 초과의 문제로 완전 탐색을 채택할 수 없을 때 사용합니다.
 
-<figure><img src="../.gitbook/assets/image (16) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 위와 같은 배열이 있습니다. 우리는 연속된 원소의 합이 5인 부분 배열의 개수를 찾고 싶다고 가정합시다.
 
 그렇다면 우리는 배열의 크기와 인덱스를 모두 바꿔가며 **완전 탐색**을 해야할까요? 이는 너무 비효율적입니다.
 
-<figure><img src="../.gitbook/assets/image (3) (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 효율성을 위해, 그리고 시간 초과를 방지하기 위해 우리는 **투 포인터** 기법을 사용할 수 있습니다.
 
