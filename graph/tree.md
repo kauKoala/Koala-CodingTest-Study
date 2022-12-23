@@ -132,12 +132,12 @@ BST는 이진트리의 성질을 가지면서 다음과 같은 특징이 있습�
 2\. 지워야 할 노드가 자식이 하나만 있을 때\
 자신을 떼어내고 자식을 그 자리로 갖다 놓으면 됩니다.
 
-<figure><img src="../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 3\. 지워야 할 노드가 자식이 2개일 때\
 이 경우가 가장 까다로운데요, 해당 노드 왼쪽에 있는 노드들 중 가장 큰 leaf노드 가져오거나 / 해당 노드 오른쪽에 있는 노드들 중 가장 작은 leaf노드를 가져오면 됩니다.
 
-<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 이렇게 BST의 검색, 삽입, 삭제에 대해 알아보았는데요.\
 이번에는BST의 특징을 이용하여 다음 5639 문제를 풀어봅시다.\

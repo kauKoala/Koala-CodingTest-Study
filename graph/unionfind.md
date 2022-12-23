@@ -116,7 +116,7 @@ for _ in range(M):
 
 유니온파인드는 무방향 그래프에서의 사이클 판단에 매우 강력한데요,
 
-<img src="../.gitbook/assets/image (4).png" alt="" data-size="line">사이클\
+<img src="../.gitbook/assets/image (4) (2).png" alt="" data-size="line">사이클\
 어떤 정점에서 시작하여 다시 자신에게 돌아오는 경로가 있다면 이를 사이클(cycle)이라고 합니다.
 
 다음 문제를 봅시다.&#x20;

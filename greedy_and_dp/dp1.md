@@ -114,7 +114,7 @@ sys.setrecursionlimit(10000)     #재귀의 한도를 10000까지 풀어준다.
 
 만약 아래 3번 상황도 가져와야 하는 거 아닌가? 라고 생각했다면, 3번 상황은 1번 상황에 이미 반영되어 있을 것이므로 불가능합니다!
 
-![](<../.gitbook/assets/image (10).png>)
+![](<../.gitbook/assets/image (10) (1).png>)
 
 이를 모두 종합하여 이렇게 BOTTOM UP DP를 구현할 수 있습니다.
 
