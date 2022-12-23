@@ -40,7 +40,7 @@ for i in range(m):
 
 일단 기존 arr가 있다면 피보나치 수열 형태로 prefix\_sum을 만듭니다.
 
-![](<../.gitbook/assets/image (3) (3).png>)![](<../.gitbook/assets/image (25).png>)
+![](<../.gitbook/assets/image (3) (6).png>)![](<../.gitbook/assets/image (25).png>)
 
 arr\[2]+arr\[3]에 해당하는 부분합은 prefix\_sum\[3]-prefix\_sum\[1]을 하면 자동적으로 구해지는 것을 증명할 수 있습니다.
 

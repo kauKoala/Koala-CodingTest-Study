@@ -110,7 +110,7 @@ sys.setrecursionlimit(10000)     #재귀의 한도를 10000까지 풀어준다.
 
 예를 들어 노란색 구간에서의 최대값을 찾고 싶다고.해봅시다 그러면 아래 1번 경우와 2번경우의 파란색 상황에서 적용해 가져올 수 있습니다.
 
-<figure><img src="../.gitbook/assets/image (5) (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (3).png" alt=""><figcaption></figcaption></figure>
 
 만약 아래 3번 상황도 가져와야 하는 거 아닌가? 라고 생각했다면, 3번 상황은 1번 상황에 이미 반영되어 있을 것이므로 불가능합니다!
 

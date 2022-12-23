@@ -4,7 +4,7 @@ description: >-
   알고리즘
 ---
 
-# 완전탐색 (백트래킹) O
+# 완전탐색 (백트래킹)
 
 백트래킹 유형을 가장  잘 보여주는 백준 온라인 저지의 9663번 N-Queen 문제를 함께 살펴봅시다.\
 
@@ -20,7 +20,7 @@ N-Queens 문제의 규칙은 퀸이 놓였을 때 퀸 자신을 기준으로 일
 우리가 어떤 과정을 거쳐 판단을 내릴 수 있을지 봅시다.\
 
 
-<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 이를 우리는 그래프 재귀 형태로 이해해볼 수 있는데요,\
 ![](<../.gitbook/assets/image (3) (2).png>)(0,0)을 선택할 경우 아래 4가지 경우를 선택할 수 있습니다.
@@ -97,7 +97,7 @@ N과 M 시리즈에서 5번 문제를 같이 볼까요?
 
 백트래킹의 전형적인 로직으로, 아래 코드에서 pop시키는 과정이 arr에서 7을 pop시키는 과정이고, 이후 다시 다음 숫자8을 그 자리에 넣게 됩니다.
 
-<img src="../.gitbook/assets/image (20).png" alt="" data-size="original">
+<img src="../.gitbook/assets/image (20) (1).png" alt="" data-size="original">
 
 ```python
 def go(arr):
