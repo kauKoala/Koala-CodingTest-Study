@@ -23,4 +23,4 @@
   * [DFS O](graph/dfs.md)
   * [다익스트라 O](graph/dijkstra.md)
   * [유니온 파인드(분리집합) O](graph/unionfind.md)
-  * [크루스칼 X 2](graph/kruskal.md)
+  * [크루스칼 O](graph/kruskal.md)

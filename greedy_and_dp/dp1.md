@@ -114,11 +114,11 @@ sys.setrecursionlimit(10000)     #재귀의 한도를 10000까지 풀어준다.
 
 만약 아래 3번 상황도 가져와야 하는 거 아닌가? 라고 생각했다면, 3번 상황은 1번 상황에 이미 반영되어 있을 것이므로 불가능합니다!
 
-![](<../.gitbook/assets/image (10).png>)
+![](<../.gitbook/assets/image (10) (1).png>)
 
 이를 모두 종합하여 이렇게 BOTTOM UP DP를 구현할 수 있습니다.
 
-<figure><img src="../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 t = int(input())
@@ -151,7 +151,7 @@ for i in range(t):
 >
 > 즉, 예를 들면, 1일, 2일을 식당 A에서 밥을 먹었다면 3일째에는 반드시 식당 B에서 밥을 먹어야 한다. 아래 표는 총 8일간 식당의 가격표이다. 위 조건을 만족하면서 8일간 밥을 먹는 최소 비용을 구하시오.
 >
-> ![](<../.gitbook/assets/image (13).png>)\
+> ![](<../.gitbook/assets/image (13) (1).png>)\
 > \
 > 답은 3차원 DP로 DP\[식당 A, 식당 B]\[총몇 일째인지]\[연속된 날짜수] 로 표현하여 의존성을 생각하며 처리해야 한다.&#x20;
 >

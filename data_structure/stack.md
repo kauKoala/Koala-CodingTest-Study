@@ -4,7 +4,7 @@
 
 후입선출 즉, '나중에 들어온게 먼저 나간다'를 그림으로 그려봅시다.
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 1, 2, 3을 순서대로 넣은 후, 1을 빼내고 싶을 땐 어떻게 해야할까요?
 

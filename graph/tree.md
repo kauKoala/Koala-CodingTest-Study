@@ -4,7 +4,7 @@ description: 노드들이 나무 가지처럼 연결된 비선형 계층적 자�
 
 # 트리 O
 
-![](../.gitbook/assets/image.png)왼쪽 그림이 바로 TREE 입니다.
+![](<../.gitbook/assets/image (15).png>)왼쪽 그림이 바로 TREE 입니다.
 
 트리의 가장 큰 특징 두 가지는 다음과 같습니다.&#x20;
 
@@ -20,7 +20,7 @@ description: 노드들이 나무 가지처럼 연결된 비선형 계층적 자�
 
 📌트리의 개념
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 트리의 루트 노드(root)는 트리의 가장 위에 있는 노드를 말합니다. 따라서 'A'입니다.
 * 노드 'D'의 부모 노드 (parent)는 해당 노드를 가리키는 상위 level 노드를 말한다. 따라서 'B'입니다.
@@ -127,7 +127,7 @@ BST는 이진트리의 성질을 가지면서 다음과 같은 특징이 있습�
 1\. 지워야 할 노드가 리프 노드일 때\
 그냥 똑 떼어주면 됩니다.
 
-<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2\. 지워야 할 노드가 자식이 하나만 있을 때\
 자신을 떼어내고 자식을 그 자리로 갖다 놓으면 됩니다.
