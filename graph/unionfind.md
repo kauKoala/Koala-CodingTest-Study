@@ -116,7 +116,7 @@ for _ in range(M):
 
 유니온파인드는 무방향 그래프에서의 사이클 판단에 매우 강력한데요,
 
-<img src="../.gitbook/assets/image (4).png" alt="" data-size="line">사이클\
+<img src="../.gitbook/assets/image (4) (1).png" alt="" data-size="line">사이클\
 어떤 정점에서 시작하여 다시 자신에게 돌아오는 경로가 있다면 이를 사이클(cycle)이라고 합니다.
 
 다음 문제를 봅시다.&#x20;
@@ -125,7 +125,7 @@ for _ in range(M):
 
 위 그래프에서 잠깐 예시를 들어보면, 만약 3과 4를 잇는다라고 한다면 이는 3-7-5-4의 사이클을 만드는 것 알 수 있습니다.&#x20;
 
-![](<../.gitbook/assets/image (9) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (5).png>)
 
 따라서 위 문제에서 만약 입력받은 두 수의 집합이 같다면 사이클을 만든다는 것을 알 수 있습니다. 위 로직은 다음에 배울 크루스칼에서 나오게 되니 잘 봐두세요!
 

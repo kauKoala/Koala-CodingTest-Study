@@ -1,5 +1,5 @@
 ---
-description: 한쪽 끝에서만 자료를 넣거나 뺄 수 있는 자료구조
+description: 한 쪽 끝에서만 자료의 삽입과 삭제가 가능한 자료구조
 ---
 
 # 스택
@@ -8,9 +8,9 @@ description: 한쪽 끝에서만 자료를 넣거나 뺄 수 있는 자료구조
 
 후입선출 즉, '나중에 들어온게 먼저 나간다'를 그림으로 그려봅시다.
 
-<figure><img src="../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
-
 1, 2, 3을 순서대로 넣은 후, 1을 빼내고 싶을 땐 어떻게 해야할까요?
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 어쩔 수 없이 3과 2를 차례로 뺀 후에야 1을 빼낼 수 있습니다.&#x20;
 

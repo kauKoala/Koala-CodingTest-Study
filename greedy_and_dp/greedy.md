@@ -5,7 +5,7 @@ description: 매 선택에서 지금 이 순간 당장 최적인 답을 선택�
 # 그리디
 
 학생 A는 지금까지 모은 저금통을 깨기 위해 돼지저금통을 들고 마트에 갔습니다.\
-![](<../.gitbook/assets/image (18).png>)![](<../.gitbook/assets/image (6).png>)
+![](<../.gitbook/assets/image (18).png>)![](<../.gitbook/assets/image (29).png>)
 
 돼지 저금통에는 500원짜리 동전, 100원짜리 동전, 50원짜리 동전, 10원짜리 동전, 5원짜리 동전, 1원짜리 동전이 부족하지 않게 들어있습니다.
 
@@ -41,13 +41,13 @@ print(count)
 ❓가장 짧은 애들을 넣어볼까?\
 하지만 아래 상황이 반례가 됩니다.
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (3).png>)
 
 
 
 ❓가장 적게 겹치는 애들부터 넣어볼까?\
 하지만 아래 상황이 반례가 됩니다.\
-![](<../.gitbook/assets/image (20).png>)
+![](<../.gitbook/assets/image (3) (4).png>)
 
 
 
