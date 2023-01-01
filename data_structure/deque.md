@@ -79,12 +79,16 @@ dq.popleft()     # deque([1, 2, 3])
 
 원래의 배열에서, 오름차순으로 정렬된 배열을 만드는 과정은 아래와 같습니다.
 
+
+
 1. front에서 삭제한 것을 rear로 삽입 **1번**  -> front에서 삭제
 2. front에서 삭제한 것을 rear로 삽입 **2번**  -> front에서 삭제
 
 &#x20;                                       (중략)
 
 &#x20; N.  front에서 삭제한 것을 rear로 삽입 **N번**  -> front에서 삭제
+
+
 
 의 순서로 진행하며, 최종적으로 1, 2, ... , N 을 얻을 수 있게 됩니다.
 
@@ -94,7 +98,7 @@ dq.popleft()     # deque([1, 2, 3])
 # 초기 배열을 li라고 가정
 li.append(li.popleft()) 1번 반복 -> li.popleft()
 li.append(li.popleft()) 2번 반복 -> li.popleft()
-(중략)
+                    (중략)
 li.append(li.popleft()) N번 반복 -> li.popleft()
 ```
 

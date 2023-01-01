@@ -1,5 +1,5 @@
 ---
-description: 오름차순으로 정렬된 리스트에서 특정한 값의 위치를 찾는 알고리즘.
+description: 오름차순으로 정렬된 리스트에서 특정한 값의 위치를 찾는 알고리즘
 ---
 
 # 이진 탐색
@@ -46,8 +46,6 @@ while left <= right:
 처음 수의 범위를 **left \~ right**로 설정하고, 조건에 맞게 범위를 좁혀가는 방식으로 진행됩니다.
 
 그러다 **left**가 **right**를 넘어설 경우에 반복문은 종료됩니다.
-
-
 
 
 
@@ -103,5 +101,5 @@ for _ in range(t):
 * [https://www.acmicpc.net/problem/16401](https://www.acmicpc.net/problem/16401)
 * [https://www.acmicpc.net/problem/17951](https://www.acmicpc.net/problem/17951)&#x20;
 
-(cf. 17951 문제처럼 정렬을 하지 않아야하는 **이진 탐색** 문제도 있습니다!)
+(cf. 17951 문제처럼 정렬을 하지 않아야하는 **이진 탐색** 문제도 있으니 유의하세요!)
 
