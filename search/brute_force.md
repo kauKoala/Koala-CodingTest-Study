@@ -86,7 +86,7 @@ for _ in range(t):
     li = sorted(list(map(int, input().split())))
     spotList = defaultdict(int)
     for i in range(len(li)):              # 모든 점을 defaultdict에 담기
-        spotList[li[i]] = 1
+        spotList[li[i]] = 1               # True를 의미함
 
     ans = 0
     for i in range(n - 1):
@@ -104,6 +104,10 @@ for _ in range(t):
 '점이 존재한다'는 의미로 defaultdict을 사용할 것이므로, 존재하는 점(key)의 값(value)은 모두 임의의 값 1로 넣어줍니다.
 
 그 후에 이중 반복문을 통해 defaultdict에 담긴 두 점을 선택합니다.
+
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
+
 
 first와 second를 선택하고, 이 두 점 사이의 거리와 동일한 third를 임의로 설정합니다.
 
