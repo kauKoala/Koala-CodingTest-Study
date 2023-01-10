@@ -76,7 +76,7 @@ def n_queens(x):
                 n_queens(x+1)
 
 n_queens(0)
-print(ans
+print(ans)
 ```
 
 위 코드를 간단히 확인해보면 is\_promising함수는 (1,0) (2,0) 등 세로의 경우와 (1,1)과 (2,2)의 대각선 경우를 가지치기하는 코드입니다.&#x20;
